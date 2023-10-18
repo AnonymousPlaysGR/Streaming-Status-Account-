@@ -16,12 +16,12 @@ const client = new Discord.Client({
 client.on('ready', async () => {
 
     const rpc = new Discord.RichPresence()
-        .setApplicationId('534203414247112723')
+        .setApplicationId('PASTE-YOUR-BOT-ID')
         .setType('STREAMING')
         .setURL(`https://www.twitch.tv/AnonymousPlaysGR6`)
-        .setDetails(`shadows of evil`)
-        .setName(`shadows of evil`)
-        .setState(`Ад, shadows of evil`)
+        .setDetails(``)
+        .setName(``)
+        .setState(``)
         .setParty({
             max: 5001,
             current: 4690,
